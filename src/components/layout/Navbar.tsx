@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">
+          <span className="text-[30px] font-bold text-emerald-600 dark:text-emerald-400">
             MARUF.
           </span>
         </Link>
