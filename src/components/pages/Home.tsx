@@ -71,13 +71,28 @@ const Home = () => {
             Hire Me
           </Button>
 
+          {/* View CV */}
+          <Button
+            asChild
+            className="px-4 py-2 text-base bg-emerald-600  hover:bg-emerald-700 text-white"
+          >
+            <a
+              href="/resume/maruf.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              View CV
+            </a>
+          </Button>
+
           {/* download cv */}
           <Button
             asChild
             className="px-4 py-2 text-base rounded-[8px] bg-emerald-600
               hover:bg-emerald-700s"
           >
-            <a href="/assets/maruf.pdf" download className="cv-btn  text-white">
+            <a href="/resume/maruf.pdf" download className="cv-btn  text-white">
               Download CV
             </a>
           </Button>
