@@ -122,7 +122,7 @@ const ContactForm = () => {
             <input
               type="tel"
               name="phone"
-              placeholder="+880..."
+              placeholder="+8801xxxxxx..."
               className="w-full px-4 py-3 rounded-lg bg-muted/20 border border-[#00D492] focus:outline-none focus:ring-2 focus:ring-emerald-500"
             />
           </div>
